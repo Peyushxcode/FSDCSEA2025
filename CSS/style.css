@@ -25,7 +25,7 @@ html , body{
     background-color: rgb(41, 136, 190);
 } */
 
-div p:nth-of-type(1){
+p:nth-child(2){
     color: blue;
     background-color: rgb(41, 136, 190);
 }
