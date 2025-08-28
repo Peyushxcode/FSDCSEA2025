@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+/* '>' sirf child pe lgega */
+/* div>p{
+    color: blue;
+    background-color: rgb(41, 136, 190);
+} */
+
+/* + sibling ( immediate) pe kaam krega */
+/* div+p{
+    color: blue;
+    background-color: rgb(41, 136, 190);
+} */
+
+/* ~ ye next saare siblings pr kaam krega */
+/* div~p{
+    color: blue;
+    background-color: rgb(41, 136, 190);
+} */
+
+div p:nth-of-type(1){
+    color: blue;
+    background-color: rgb(41, 136, 190);
+}
