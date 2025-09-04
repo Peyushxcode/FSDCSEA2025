@@ -27,26 +27,69 @@ html , body{
     gap: 10px;
     /* grid-template-columns: 200px 300px 400px; */
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 200px 400px;
+    grid-template-rows: 500px 200px ;
 }
 
+.childs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:200px 200px;
+    padding: 10px;
+}
+
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 .child1{
-    height: 100px;
-    width: 100px;
-    background-color: red;
+    /* height: 100px;
+    width: 100px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .child2{
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     background-color: green;
 }
 .child3{
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     background-color: yellow;
 }
 .child4{
+    /* height: 100px;
+    width: 100px; */
+    background-color: orange;
+}
+
+.child11{
     height: 100px;
     width: 100px;
-    background-color: orange;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px dotted blue;
+}
+.child12{
+    height: 100px;
+    width: 100px;
+     margin-right: 10px;
+     margin-top: 10px;
+    border: 1px dotted blue;
+}
+.child13{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: 1px dotted blue;
+}
+.child14{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+
+    border: 1px dotted blue;
 }
